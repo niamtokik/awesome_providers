@@ -1,0 +1,37 @@
+######################################################################
+#
+######################################################################
+"1gservers.com":
+  - name: "1g servers"
+  - url: "https://1gservers.com"
+  - services:
+    - "bare-metal"
+    - "vps"
+  - bandwidth:
+    - 10Gbps
+    - 1Gbps
+  - allowed:
+    - torrenting: false
+    - mining: false
+  - locations:
+    - usa:
+      - arizona
+  - api: false
+  - portal: "https://portal.1gservers.com/"
+  - contact:
+    e-mail: sales@1gservers.com
+  - social:
+    facebook: "https://www.facebook.com/1GServers"
+    x/twitter: "https://twitter.com/1GServers"
+  - bgp:
+    - "AS14315"
+  - ipv4:
+    - "207.32.216.0/22"
+    - "104.251.122.0/23"
+    - "96.47.160.0/22"
+    - "23.158.120.0/24"
+    - "206.168.190.0/23"
+    - "136.175.8.0/22"
+    - "142.202.240.0/22"
+  - ipv6:
+    - "2605:8340::/32"
